@@ -1,0 +1,192 @@
+nav {
+    background-color: antiquewhite;
+}
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1366px;
+    margin: 0 auto;
+padding: 0 5rem;
+}
+
+nav .logo {
+display: flex;    
+font-size: 2rem;
+align-items: center;
+}
+
+nav .logo i {
+    color: aqua;
+    padding-left: 0,75rem;
+}
+
+nav .logo h4 {
+font-family:"lalezar" cursive;
+}
+nav .nav-itens {
+    display: flex;
+    list-style-type: none;
+}
+
+nav .nav-itens .nav-itens{
+    padding: 0 1rem;
+}
+
+nav .nav-link{
+    text-decoration: none;
+    color: dimgray;
+    font-size: 1.4rem;
+}
+nav .nav-link:hover {color: blue;
+
+}
+
+/* hero SECTION */
+.hero {
+    background-color: white;
+}
+.hero-section {
+    max-width: 1366px;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 5rem;
+
+}
+.hero-section .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-section h4 {
+    color: brown;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+
+}
+.hero-section .content h1 {
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+}
+
+.hero-section p {
+    color: indigo;
+    font-size: 1.4rem;
+}
+
+.hero-section p span {
+    color: orange;
+}
+
+/* FEATURES SECTION */
+
+section .features {
+    padding: 2rem;
+    background-color: white;
+}
+
+section .features-section {
+    max-width: 1366px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.features-section .qualities {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.features-section .qualities .quality {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(209, 188, 218);
+    padding: 2rem;
+    max-width: 17rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+ 
+
+/* NEWEST SECTION */
+.newest-phones {
+padding-top: 5rem;
+
+}
+.newest-phones .phones-section {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.phones-section .phones {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: flex-start;
+}
+
+.phones .phone {
+    margin: 2rem;
+    max-width: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* NEWEST SECTION */
+
+.newest-phones {
+    padding-top: 5rem;
+    
+    }
+    .newest-phones .phones-section {
+        max-width: 1266px;
+        margin: 0 auto;
+        padding: 0 5rem;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+    
+    .phones-section .phones {
+        background-color: white;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        justify-content: flex-start;
+        cursor: pointer;
+    }
+    
+    .phones .phone {
+        margin: 2rem;
+        max-width: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+    }
+
+        .phones-section botton {
+            width: 15rem;
+            margin-bottom: 1rem;
+            align-self: center;
+            cursor: pointer;
+            
+        }
